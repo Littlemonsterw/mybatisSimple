@@ -1,5 +1,6 @@
-package com.monster.mybatis.mapper;
+package com.monster.mybatis;
 
+import com.monster.mybatis.BaseMapperTest;
 import com.monster.mybatis.model.Country;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -16,23 +17,11 @@ import java.util.List;
  * @Author wuhan
  * @Date 2019/12/5 14:32
  */
-public class CountryMapperTest {
-    private static SqlSessionFactory sqlSessionFactory;
-
-    @BeforeClass
-    public static void init() {
-        try {
-            Reader reader = Resources.getResourceAsReader("mybatis-config.xml");
-            sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
-            reader.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+public class CountryMapperTest extends BaseMapperTest {
 
     @Test
     public void testSelectAll() {
-        SqlSession sqlSession = sqlSessionFactory.openSession();
+        SqlSession sqlSession = getSqlSession();
         try {
             List<Country> countryList = sqlSession.selectList("selectAll");
             printCountryList(countryList);
@@ -43,7 +32,7 @@ public class CountryMapperTest {
 
     private void printCountryList(List<Country> countryList) {
         for (Country country: countryList) {
-            System.out.printf("%-4d%4s%4s\n", country.getId(), country.getCountryname(), country.getCountrycode());
+            System.out.printf("%-4d%4s%4s\n", country.getId(), country.getCountryName(), country.getCountryCode());
         }
     }
 }
