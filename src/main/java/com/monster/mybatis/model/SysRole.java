@@ -34,6 +34,11 @@ public class SysRole {
      */
     private Date createTime;
 
+    /**
+     * 用户信息
+     */
+    private SysUser user;
+
     public Long getId() {
         return id;
     }
@@ -72,5 +77,13 @@ public class SysRole {
 
     public void setCreateTime(Date createTime) {
         this.createTime = createTime;
+    }
+
+    public SysUser getUser() {
+        return user;
+    }
+
+    public void setUser(SysUser user) {
+        this.user = user;
     }
 }

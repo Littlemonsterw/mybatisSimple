@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c96ae0ab-4439-4dcd-86a0-d2170bd49df1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/mapper/PrivilegeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/mapper/RolePrivilegeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/mapper/UserRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/model/SysPrivilege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/model/SysRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/model/SysRolePrivilege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/model/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/model/SysUserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/PrivilegeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/RolePrivilegeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/monster/mybatis/BaseMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/monster/mybatis/UserMapperTest.java" afterDir="false" />
+    <list default="true" id="c96ae0ab-4439-4dcd-86a0-d2170bd49df1" name="Default Changelist" comment="select用法">
+      <change afterPath="$PROJECT_DIR$/.idea/mybatisSimple.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/model/SysRoleExtend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/model/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/model/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/model/SysRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CountryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/mapper/CountryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/PrivilegeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/mapper/PrivilegeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/RolePrivilegeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/mapper/RolePrivilegeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monster/mybatis/mapper/UserRoleMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/monster/mybatis/mapper/CountryMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/monster/mybatis/CountryMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/monster/mybatis/model/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/monster/mybatis/model/Country.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/monster/mybatis/CountryMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/monster/mybatis/CountryMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/monster/mybatis/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/monster/mybatis/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/mybatisSimple.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/monster/mybatis/mapper/CountryMapperTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,17 +49,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowBuild.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/monster/mybatis/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\dev\mybatisSimple\src\main\java\com\monster\mybatis\mapper" />
-      <recent name="E:\dev\mybatisSimple\src\main\resources\com\monster\mybatis" />
-      <recent name="E:\dev\mybatisSimple\src\main\java\com\monster\mybatis" />
-      <recent name="E:\dev\mybatisSimple\src\main\resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.monster.mybatis" />
     </key>
@@ -71,6 +66,13 @@
       <recent name="E:\dev\mybatisSimple\src\main\resources\mapper" />
       <recent name="E:\dev\mybatisSimple\src\main\resources" />
       <recent name="E:\dev\mybatisSimple\src\main\resources\com\monster\mybatis\mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\mybatisSimple\src\main\java\com\monster\mybatis\mapper" />
+      <recent name="D:\dev\mybatisSimple\src\main\resources\mapper" />
+      <recent name="E:\dev\mybatisSimple\src\main\java\com\monster\mybatis\mapper" />
+      <recent name="E:\dev\mybatisSimple\src\main\resources\com\monster\mybatis" />
+      <recent name="E:\dev\mybatisSimple\src\main\java\com\monster\mybatis" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -85,38 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserMapperTest.testSelectAll">
-    <configuration name="CountryMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisSimple" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.monster.mybatis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.monster.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.monster.mybatis.CountryMapperTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountryMapperTest.testSElectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisSimple" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.monster.mybatis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.monster.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.monster.mybatis.CountryMapperTest" />
-      <option name="METHOD_NAME" value="testSElectAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UserMapperTest.testInsert">
     <configuration name="CountryMapperTest.testSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisSimple" />
       <extension name="coverage">
@@ -128,6 +99,38 @@
       <option name="PACKAGE_NAME" value="com.monster.mybatis" />
       <option name="MAIN_CLASS_NAME" value="com.monster.mybatis.CountryMapperTest" />
       <option name="METHOD_NAME" value="testSelectAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.selectRoleByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisSimple" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.monster.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.monster.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.monster.mybatis.UserMapperTest" />
+      <option name="METHOD_NAME" value="selectRoleByUserId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisSimple" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.monster.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.monster.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.monster.mybatis.UserMapperTest" />
+      <option name="METHOD_NAME" value="testInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserMapperTest.testInsert" />
+        <item itemvalue="JUnit.UserMapperTest.selectRoleByUserId" />
         <item itemvalue="JUnit.UserMapperTest.testSelectAll" />
-        <item itemvalue="JUnit.CountryMapperTest.testSelectAll" />
         <item itemvalue="JUnit.UserMapperTest.testSelectById" />
-        <item itemvalue="JUnit.CountryMapperTest" />
-        <item itemvalue="JUnit.CountryMapperTest.testSElectAll" />
+        <item itemvalue="JUnit.CountryMapperTest.testSelectAll" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +189,8 @@
       <option name="presentableId" value="Default" />
       <updated>1575519220943</updated>
       <workItem from="1575519222299" duration="16526000" />
+      <workItem from="1575557952467" duration="156000" />
+      <workItem from="1575558132548" duration="4972000" />
     </task>
     <servers />
   </component>
@@ -197,7 +202,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

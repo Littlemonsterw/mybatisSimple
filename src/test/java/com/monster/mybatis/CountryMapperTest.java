@@ -23,7 +23,7 @@ public class CountryMapperTest extends BaseMapperTest {
     public void testSelectAll() {
         SqlSession sqlSession = getSqlSession();
         try {
-            List<Country> countryList = sqlSession.selectList("selectAll");
+            List<Country> countryList = sqlSession.selectList("com.monster.mybatis.mapper.CountryMapper.selectAll");
             printCountryList(countryList);
         } finally {
             sqlSession.close();
@@ -32,7 +32,7 @@ public class CountryMapperTest extends BaseMapperTest {
 
     private void printCountryList(List<Country> countryList) {
         for (Country country: countryList) {
-            System.out.printf("%-4d%4s%4s\n", country.getId(), country.getCountryName(), country.getCountryCode());
+            System.out.printf("%-2d%5s%5s\n", country.getId(), country.getCountryName(), country.getCountryCode());
         }
     }
 }

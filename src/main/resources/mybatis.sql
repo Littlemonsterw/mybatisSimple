@@ -15,6 +15,8 @@ Date: 2019-12-05 17:59:41
 
 SET FOREIGN_KEY_CHECKS=0;
 
+CREATE database mybatis;
+USE mybatis;
 -- ----------------------------
 -- Table structure for country
 -- ----------------------------

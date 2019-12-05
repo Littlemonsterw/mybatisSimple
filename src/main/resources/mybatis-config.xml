@@ -16,14 +16,12 @@
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
                 <property name="url" value="jdbc:mysql://localhost:3306/mybatis?serverTimezone=GMT%2B8"/>
                 <property name="username" value="root"/>
-                <property name="password" value="root"/>
+                <property name="password" value="admin"/>
             </dataSource>
         </environment>
     </environments>
 
     <mappers>
-        <mapper resource="mapper/CountryMapper.xml"/>
-        <mapper resource="mapper/UserMapper.xml"/>
-<!--        <package name="mapper"/>-->
+        <package name="com.monster.mybatis.mapper"/>
     </mappers>
 </configuration>
